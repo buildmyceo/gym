@@ -25,7 +25,8 @@ export interface Testimonial {
 
 export interface FacilityImage {
   id: string;
-  url: string;
+  video: string;
+  poster: string;
   title: string;
   colSpan?: string;
 }
